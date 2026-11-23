@@ -1,0 +1,16 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02, S03, S04, S05, S06, S07, S08, D01, D02, D03, D04, D05, D06
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: child_seat=16, face=6, face13=6, hand=12, infant_seat=8, object=10, person=20
+  [WARN] D01.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D01.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D02.png: eye_right=unknown nhưng không điểm right_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D03.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+  [WARN] D04.png: eye_left=unknown nhưng không điểm left_eye_* nào có cờ occluded/outside: nếu mắt bị che thì bật occluded, nếu thấy rõ thì chọn open/closed
+Kết quả: 0 lỗi, 6 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
+
+Giải thích cảnh báo còn lại:
+- D01: eye_left/eye_right = unknown — mắt không định hình rõ được mi mắt (đốm phản xạ IR + bị kính che); không đủ căn cứ chọn open/closed theo 4.4-1.
+- D02: eye_left/eye_right = unknown — vùng mắt sáng loang do phản xạ đèn IR, không thấy khe mắt rõ; giữ unknown thay vì đoán (4.5).
+- D03: eye_left/eye_right = unknown — phản xạ trên tròng kính che vùng mắt; không phân biệt được mi khép hay chỉ không thấy.
+- D04: eye_left = unknown — vùng mắt bị tay + bóng tối phủ; không phân biệt được mi khép hay chỉ không thấy.
+- Lưu ý phạm vi: export gồm 26 ảnh (22 cốt lõi + S09,S10 phần mở rộng), lệnh check dùng --only đúng 14 mã ảnh cốt lõi nên "Ảnh: 22" là đúng phạm vi yêu cầu.

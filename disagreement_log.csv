@@ -1,0 +1,155 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S09_ir.png,-,image,chỉ có ở mine,,,,,
+S09_rgb.png,-,image,chỉ có ở mine,,,,,
+S10_ir.png,-,image,chỉ có ở mine,,,,,
+S10_rgb.png,-,image,chỉ có ở mine,,,,,
+D01.png,person,seatbelt,khác giá trị (IoU=0.67),worn_incorrect,worn_correct,ambiguous,4.7,"Xac dinh day that tren NIR kho; so anh trong CVAT, khong chac thi unknown; hoi coach neu van loi"
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D01.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D01.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,,,
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D01.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D01.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D01.png,face13,right_eye_outer.outside,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,right_eye_inner.outside,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,right_eye_upper.outside,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,right_eye_lower.outside,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,nose_tip.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,mouth_left.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,mouth_right.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,lip_upper.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D01.png,face13,lip_lower.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D02.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.47,,,,
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D02.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.11,,,,
+D02.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,phone,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D02.png,face13,mouth_right.occluded,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D03.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D03.png,face,eye_left,khác giá trị (IoU=0.74),unknown,open,ambiguous,4.5,Khong chac khe mat mo hay khong thi unknown (quy tac 4.4-1); so lai tren CVAT cung ban
+D03.png,face,eye_right,khác giá trị (IoU=0.74),unknown,open,,,
+D03.png,face,gaze_zone,khác giá trị (IoU=0.74),center,road,ambiguous,4.5,Anh xoay 90 kho xac dinh huong nhin; other + ghi chu neu khong chac
+D03.png,face,glasses,khác giá trị (IoU=0.74),clear,sun,ambiguous,4.5,"NIR lam kinh ram trong suot; khong chac thi unknown, dung none/sun cho nhanh"
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D03.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D03.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,person,seatbelt,khác giá trị (IoU=0.73),worn_correct,worn_incorrect,ambiguous,4.7,"Xac dinh day that tren NIR kho; so anh trong CVAT, khong chac thi unknown; hoi coach neu van loi"
+D04.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.32,,,,
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.18,,,,
+D04.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D04.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D04.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D04.png,face13,right_eye_outer.outside,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,face13,right_eye_inner.outside,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,face13,right_eye_upper.outside,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,face13,right_eye_lower.outside,khác cờ,1,0,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,face13,mouth_right.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D04.png,face13,lip_lower.occluded,khác cờ,0,1,ambiguous,4.6,"So vi tri diem face13 tren CVAT; chac vi tri thi dat co, khong chac thi de trong"
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D05.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D05.png,person,seatbelt,khác giá trị (IoU=0.74),unknown,worn_incorrect,ambiguous,4.7,"Xac dinh day that tren NIR kho; so anh trong CVAT, khong chac thi unknown; hoi coach neu van loi"
+D05.png,face,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.38,,,,
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D05.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D05.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D06.png,face,eye_left,khác giá trị (IoU=0.59),closed,open,ambiguous,4.5,"closed chi khi thay ro 2 mi khe; so lai tren CVAT, khong chac thi unknown"
+D06.png,face,eye_right,khác giá trị (IoU=0.59),closed,open,,,
+D06.png,face,glasses,khác giá trị (IoU=0.59),none,sun,ambiguous,4.5,"NIR lam kinh ram trong suot; khong chac thi unknown, dung none/sun cho nhanh"
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.12,,,,
+D06.png,hand,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+D06.png,hand,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.46,,,,
+S01_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S01_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,,,
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,,,
+S01_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S01_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.45,,,,
+S01_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S01_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S02_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S02_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S03_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.08,,,,
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.01,,,,
+S03_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.05,,,,
+S03_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.05,,,,
+S03_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.02,,,,
+S03_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.06,,,,
+S03_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S03_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S03_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.36,,,,
+S04_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S04_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.35,,,,
+S04_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S04_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S04_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S05_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S05_ir.png,child_seat,occupied,khác giá trị (IoU=0.98),no,yes,peer,4.8,"Ban sua occupied thanh no/unknown; ""yes"" khong ton tai trong schema (guideline 4.8: khong co yes)"
+S05_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S05_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S05_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.47,,,,
+S05_rgb.png,child_seat,occupied,khác giá trị (IoU=0.80),unknown,yes,peer,4.8,"Ban sua occupied thanh no/unknown; ""yes"" khong ton tai trong schema (guideline 4.8: khong co yes)"
+S05_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S05_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S05_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S05_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S06_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S06_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.05,,,,
+S06_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,,,
+S06_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S06_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S06_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S06_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S07_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S07_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.15,,,,
+S07_ir.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S07_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S07_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S07_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.16,,,,
+S07_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S07_rgb.png,object,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_ir.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.04,,,,
+S08_ir.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_ir.png,child_seat,occupied,khác giá trị (IoU=0.96),unknown,yes,peer,4.8,"Ban sua occupied thanh no/unknown; ""yes"" khong ton tai trong schema (guideline 4.8: khong co yes)"
+S08_ir.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_ir.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_ir.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_rgb.png,child_seat,occupied,khác giá trị (IoU=0.96),unknown,yes,peer,4.8,"Ban sua occupied thanh no/unknown; ""yes"" khong ton tai trong schema (guideline 4.8: khong co yes)"
+S08_rgb.png,infant_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_rgb.png,person,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_rgb.png,child_seat,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,,,
+S08_rgb.png,person,box,chỉ có ở peer (hoặc IoU thấp),,,,,
+S08_rgb.png,face,box,chỉ có ở peer (hoặc IoU thấp),,,,,
